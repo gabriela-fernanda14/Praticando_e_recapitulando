@@ -1,16 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.header {
+    display: flex;
+    align-items: baseline;
+    gap: 1vh;
+    justify-content: center;
 }
 
-cinza{
-    background-color: black;
-    color: violet;
-    text-align: center;
+.bloco-vermelho1 {
+background-color: red;
+height: 20vh;
+width: 100rem;
 }
 
-.maior{
-    background-color: blueviolet;
-    border: brown;
+.bloco-vermelho2 {
+background-color: red;
+height: 20vh;
+width: 30rem;
+}
+
+.container-v {
+    display: flex;
+    gap: 2rem;
+}
+
+.amarelo {
+background-color: yellow;
+height: 42rem;
+width: 50rem;
+}
+
+.bloco-roxo1 {
+background-color: purple;
+height: 20rem;
+width: 70rem;
+}
+
+.bloco-roxo2 {
+background-color: purple;
+height: 20rem;
+width: 70rem;
+}
+
+.container-ar {
+    display: flex;
+    gap: 1rem;
+    row-gap: 2rem;
+    margin-top: 20px;
+}
+
+.container-r {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.bloco-azul1 {
+background-color: blue;
+height: 10rem;
+width: 25rem;
+}
+
+.bloco-azul2 {
+background-color: blue;
+height: 10rem;
+width: 70rem;
+}
+
+.bloco-azul3 {
+background-color: blue;
+height: 10rem;
+width: 25rem;
+}
+
+.container-a {
+    display: flex; 
+    gap: 2rem;
+    margin-top: 20px;
 }
